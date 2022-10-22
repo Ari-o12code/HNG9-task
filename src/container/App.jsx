@@ -31,7 +31,7 @@ function App() {
         <a 
           href="http://books.zuri.team" 
           id="books">
-          Zuri Books
+          Zuri Books <span>(find books about design and coding here)</span>
         </a>
         <a 
           href="https://books.zuri.team/python-for-beginners?ref_id=al-ameen_quadri" 
