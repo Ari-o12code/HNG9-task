@@ -1,0 +1,119 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-container{
+  width: 100%;
+  padding: 3em 1em;
+  display: grid;
+  place-items: center;
+}
+
+#profile_img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile-section h1{
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.links-section{
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  width: 80%;
+  text-align: center;
+}
+
+.links-section a{
+  background: #EAECF0;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  padding: 1em 0;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.links-section a:hover{
+  border: 1px solid #98A2B3;
+}
+
+.links-section a:active{
+  background: #D0D5DD;
+}
+
+.other-links{
+  margin-top: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.other-links img{
+  width: 20px;
+  height: 20px;
+}
+
+#footer-container{
+  margin: auto;
+  max-width: 80%;
+  margin-top: 2.5em;
+  padding-bottom: 1em;
+}
+
+.footer-contents{
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer-container hr{
+  visibility: hidden;
+}
+
+#footer-container p{
+  font-size: 16px;
+  color: #667085;
+}
+
+@media screen and (min-width: 600px) {
+  #footer-container{
+    margin-top: 4em;
+  }
+
+  .footer-contents{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #footer-container hr{
+    color: #667085;
+    visibility: visible;
+    margin-bottom: 2em;
+  }
+
+  .footer-contents p{
+    font-size: 12px;
+  }
+}
+
+
