@@ -52,8 +52,7 @@ body {
 
 .links-section{
   margin-top: 2em;
-  display: flex;
-  flex-direction: column;
+  display: grid;
   gap: 2em;
   width: 80%;
   text-align: center;
