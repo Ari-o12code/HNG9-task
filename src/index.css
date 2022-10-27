@@ -30,6 +30,7 @@ body {
 }
 
 .share-btn-desktop{
+  display: none;
   visibility: hidden;
   position: absolute;
   top: -0.8em;
@@ -39,7 +40,7 @@ body {
 .share-btn-mobile{
   position: absolute;
   top: -1em;
-  left: 15em;
+  left: 12em;
 }
 
 .profile-section h1{
@@ -122,6 +123,7 @@ body {
 
 @media screen and (min-width: 600px) {
   .share-btn-desktop{
+    display: inline;
     visibility: visible;
   }
 
