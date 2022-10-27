@@ -31,6 +31,9 @@ body {
 
 .share-btn-desktop{
   visibility: hidden;
+  position: absolute;
+  top: -0.8em;
+  left: 30em;
 }
 
 .share-btn-mobile{
@@ -121,9 +124,6 @@ body {
 @media screen and (min-width: 600px) {
   .share-btn-desktop{
     visibility: visible;
-    position: absolute;
-    top: -0.8em;
-    left: 30em;
   }
 
   .share-btn-mobile{
