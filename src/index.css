@@ -105,19 +105,18 @@ body {
 }
 
 .footer-contents{
-  display: flex;
-  flex-direction: column;
-  gap: 2em;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  gap: 1em;
 }
 
 #footer-container hr{
-  visibility: hidden;
+  color: #667085;
+  visibility: visible;
+  margin-bottom: 2em;
 }
 
 #footer-container p{
-  font-size: 16px;
+  font-size: 14px;
   color: #667085;
 }
 
@@ -144,9 +143,7 @@ body {
   }
 
   #footer-container hr{
-    color: #667085;
     visibility: visible;
-    margin-bottom: 2em;
   }
 
   #footer-container .footer-contents p{
