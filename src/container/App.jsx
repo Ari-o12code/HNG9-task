@@ -3,6 +3,9 @@ import slacklogo from '../assets/slack.png'
 import gitHubLogo from '../assets/Icon.png'
 import Zurilogo from "../assets/Vector.png"
 import I4Glogo from "../assets/I4G.png"
+import shareButton1 from "../assets/share-button.png"
+import shareButton2 from "../assets/share-button2.png"
+
 
 function App() {
   return (
@@ -14,8 +17,18 @@ function App() {
           src={profileimg} 
           alt="profile img" 
         />
+        <img 
+        className="share-btn-desktop"
+        src={shareButton1} 
+        alt="share button desktop" 
+        />
+        <img 
+        className="share-btn-mobile"
+        src={shareButton2} 
+        alt="share button mobile" 
+        />
         <h1 id="twitter">alameen_quadri</h1>
-        <p className="hidden" id="slack">Al-Ameen Quadri</p>
+        <p className="hidden" id="slack">Olayinka</p>
       </section>
       <section className="links-section">
         <a 
@@ -34,7 +47,7 @@ function App() {
           Zuri Books <span>(find books about design and coding here)</span>
         </a>
         <a 
-          href="https://books.zuri.team/python-for-beginners?ref_id=al-ameen_quadri" 
+          href="https://books.zuri.team/python-for-beginners?ref_id=Olayinka" 
           id="book_python">
           Python Books
         </a>
