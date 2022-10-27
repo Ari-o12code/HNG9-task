@@ -138,9 +138,12 @@ body {
   }
 
   .footer-contents{
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
+
 
   #footer-container hr{
     visibility: visible;
