@@ -50,6 +50,10 @@ body {
   margin-top: 1rem;
 }
 
+#slack{
+  visibility: hidden;
+}
+
 .links-section{
   margin-top: 2em;
   display: grid;

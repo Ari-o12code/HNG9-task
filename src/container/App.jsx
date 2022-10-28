@@ -28,7 +28,7 @@ function App() {
         alt="share button mobile" 
         />
         <h1 id="twitter">alameen_quadri</h1>
-        <p className="hidden" id="slack">olayinka_quadri</p>
+        <p id="slack">olayinka_quadri</p>
       </section>
       <section className="links-section">
         <a 
