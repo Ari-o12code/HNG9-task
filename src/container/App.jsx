@@ -28,7 +28,7 @@ function App() {
         alt="share button mobile" 
         />
         <h1 id="twitter">alameen_quadri</h1>
-        <p className="hidden" id="slack">Olayinka</p>
+        <p className="hidden" id="slack">olayinka_quadri</p>
       </section>
       <section className="links-section">
         <a 
@@ -47,7 +47,7 @@ function App() {
           Zuri Books <span>(find books about design and coding here)</span>
         </a>
         <a 
-          href="https://books.zuri.team/python-for-beginners?ref_id=Olayinka" 
+          href="https://books.zuri.team/python-for-beginners?ref_id=olayinka_quadri" 
           id="book_python">
           Python Books
         </a>
