@@ -75,11 +75,6 @@ body {
   background: #D0D5DD;
 }
 
-.links-section #books{
-  display: flex;
-  flex-direction: column;
-}
-
 .links-section a>span{
   font-size: 10px;
 }
