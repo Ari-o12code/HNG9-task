@@ -13,7 +13,7 @@ function App() {
     <main className="main-container">
       <section className="profile-section">
         <img
-          id="profile_img"
+          id="profile__img"
           src={profileimg} 
           alt="profile img" 
         />
@@ -38,7 +38,7 @@ function App() {
         </a>
         <a 
           href="https://training.zuri.team/" 
-          id="btn_zuri">
+          id="btn__zuri">
           Zuri Team
         </a>
         <a 
@@ -48,7 +48,7 @@ function App() {
         </a>
         <a 
           href="https://books.zuri.team/python-for-beginners?ref_id=olayinka_quadri" 
-          id="book_python">
+          id="book__python">
           Python Books
         </a>
         <a 
@@ -58,7 +58,7 @@ function App() {
         </a>
         <a 
           href="https://books.zuri.team/design-rules" 
-          id="book_design">
+          id="book__design">
           Design Books
         </a>
       </section>
