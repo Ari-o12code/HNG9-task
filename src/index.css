@@ -23,7 +23,7 @@ body {
   position: relative;
 }
 
-#profile_img{
+#profile__img{
   height: 150px;
   width: 150px;
   border-radius: 50%;
