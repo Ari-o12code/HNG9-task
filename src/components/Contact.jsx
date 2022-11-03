@@ -7,7 +7,7 @@ const Contact = () => {
       lastName: '', 
       email: '', 
       comments: '',
-      employment: ''
+      agreeButton: ''
     }
     )
 
@@ -26,7 +26,7 @@ const Contact = () => {
   }
 
   return (
-    <div className='main-container'>
+    <div className='container'>
         <h1>Contact Me</h1>
         <p>Hi there, contact me to ask me about anything you have in mind</p>
         <form className='form-container' onSubmit={handleSubmit}>
@@ -65,17 +65,18 @@ const Contact = () => {
           onChange={handleChange}
           value={formData.comments} 
           cols="30" rows="10"/>
-          <input 
-          type="radio" 
-          value='Unemployed'
-          name='employment'
-          id='Unemployed'
-          onChange = {handleChange}
-          checked = {formData.employment === 'Unemployed'}
-          />
-          <label htmlFor="Unemployed">Unemployed</label>
+          <div className='agree-container'>
+            <input 
+            type="checkbox" 
+            onChange = {handleChange}
+            checked = {formData.agreeButton}
+            id = 'agree'
+            name='agreeButton'
+            />
+            <label htmlFor="agree">You agree to providing your data to Al-Ameen who may contact you.</label>
+          </div>
           <br />
-          <button id='btn__submit'>Submit</button>
+          <button id='btn__submit'>Send message</button>
         </form>
     </div>
   )

@@ -96,10 +96,56 @@ body {
   height: 20px;
 }
 
+.container{
+  padding: 3em 1em;
+}
+
+.container h1{
+  font-weight: 600;
+  font-size: 36px;
+  color: #101828;
+}
+
+.container p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
 .form-container{
-  max-width: 80vw;
+  margin-top: 2em;
   display: grid;
-  place-items: center;
+  gap: 1em;
+}
+
+.form-container #first_name,#last_name,#email,#message{
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+.form-container #first_name,#last_name,#email{
+  padding: 10px 14px;
+}
+
+.form-container .agree-container{
+  display: inline;
+  color: #475467;
+}
+
+.form-container .agree-container>label{
+  max-width: 250px;
+  margin-left: 20px;
+}
+
+.form-container #btn__submit{
+  color: white;
+  background: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding: 12px 20px;
 }
 
 #footer-container{
