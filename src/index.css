@@ -96,6 +96,12 @@ body {
   height: 20px;
 }
 
+.form-container{
+  max-width: 80vw;
+  display: grid;
+  place-items: center;
+}
+
 #footer-container{
   margin: auto;
   max-width: 80%;
