@@ -1,10 +1,11 @@
+
+import Footer from "../components/Footer"
 import profileimg from "../assets/olayinka.jpg"
 import slacklogo from '../assets/slack.png'
 import gitHubLogo from '../assets/Icon.png'
-import Zurilogo from "../assets/Vector.png"
-import I4Glogo from "../assets/I4G.png"
 import shareButton1 from "../assets/share-button.png"
 import shareButton2 from "../assets/share-button2.png"
+import {BrowserRouter as Router, Route} from "react-router-dom"
 
 
 function App() {
@@ -61,31 +62,20 @@ function App() {
           id="book__design">
           Design Books
         </a>
+        <a 
+          href="https://books.zuri.team/design-rules" 
+          id="contact">
+          Contact Me
+        </a>
       </section>
       <section className="other-links">
           <img src={slacklogo} alt="Slack logo" />
         <a href="https://github.com/Ari-o12code">
           <img src={gitHubLogo} alt="GitHub logo" />
         </a>
-        </section>
+      </section>
     </main>
-    <footer id="footer-container">
-      <hr />
-      <div className="footer-contents">
-        <img 
-        className="zurilogo"
-        src={Zurilogo} 
-        alt="Zuri Internship logo" />
-        <p 
-          className="footer-text">
-            HNG Internship 9 Frontend Task
-        </p>
-        <img 
-        className="I4Glogo"
-        src={I4Glogo} 
-        alt="I4G logo" />
-      </div>
-    </footer>
+    <Footer />
     </>
   );
 }
