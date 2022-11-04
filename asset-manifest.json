@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/HNG9-stage-1-task/static/css/main.353404a9.css",
-    "main.js": "/HNG9-stage-1-task/static/js/main.9b34b400.js",
-    "static/js/787.d0df34cc.chunk.js": "/HNG9-stage-1-task/static/js/787.d0df34cc.chunk.js",
-    "static/media/olayinka.jpg": "/HNG9-stage-1-task/static/media/olayinka.4b6af31b7b88971898c7.jpg",
-    "index.html": "/HNG9-stage-1-task/index.html",
-    "main.353404a9.css.map": "/HNG9-stage-1-task/static/css/main.353404a9.css.map",
-    "main.9b34b400.js.map": "/HNG9-stage-1-task/static/js/main.9b34b400.js.map",
-    "787.d0df34cc.chunk.js.map": "/HNG9-stage-1-task/static/js/787.d0df34cc.chunk.js.map"
+    "main.css": "/HNG9-task/static/css/main.353404a9.css",
+    "main.js": "/HNG9-task/static/js/main.a5b89329.js",
+    "static/js/787.f2590de1.chunk.js": "/HNG9-task/static/js/787.f2590de1.chunk.js",
+    "static/media/olayinka.jpg": "/HNG9-task/static/media/olayinka.4b6af31b7b88971898c7.jpg",
+    "index.html": "/HNG9-task/index.html",
+    "main.353404a9.css.map": "/HNG9-task/static/css/main.353404a9.css.map",
+    "main.a5b89329.js.map": "/HNG9-task/static/js/main.a5b89329.js.map",
+    "787.f2590de1.chunk.js.map": "/HNG9-task/static/js/787.f2590de1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.353404a9.css",
-    "static/js/main.9b34b400.js"
+    "static/js/main.a5b89329.js"
   ]
 }
