@@ -11,7 +11,7 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/HNG9-task" element={<Main />} />
+          <Route path="/" element={<Main />} />
           <Route path="/contact" element={ <Contact /> } />
         </Routes>
       </Router>
