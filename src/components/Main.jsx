@@ -59,7 +59,7 @@ const Main = () => {
           Design Books
         </a>
         <a  
-          href="http://localhost:3000/contact"
+          href="/contact"
           id="contact">
           Contact Me
         </a>

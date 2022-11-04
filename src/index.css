@@ -7,6 +7,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
+
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
@@ -110,12 +115,13 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
+  color: #475467;
 }
 
 .form-container{
   margin-top: 2em;
   display: grid;
-  gap: 1em;
+  gap: 0.6em;
 }
 
 .form-container #first_name,#last_name,#email,#message{
@@ -123,20 +129,73 @@ body {
   border: 1px solid #D0D5DD;
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
+  margin-bottom: 1em;
 }
 
-.form-container #first_name,#last_name,#email{
+.form-container #first_name,#last_name,#email,#message{
   padding: 10px 14px;
 }
 
-.form-container .agree-container{
-  display: inline;
+.agree-container{
+  display: flex;
+  align-items: center;
+}
+
+input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #FFFFFF;
+  border: 1px solid #D0D5DD;
+  border-radius: 6px;
+}
+
+input[type="checkbox"]::before {
+  content: "✔";
+  position: absolute;
+  left: 14%;
+  right: 16%;
+  top: -12%;
+  color: #1570EF;
+  visibility: hidden;
+}
+
+input[type="checkbox"]:checked::before {
+  visibility: visible;
+}
+
+input[type="checkbox"]:hover{
+  background: #FFFFFF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0px 0px 0px 4px #D1E9FF;
+}
+
+input[type="checkbox"]:checked{
+  border: 1px solid #1570EF;
+}
+
+input[type="checkbox"]:disabled {
+  background: #F2F4F7;
+  border: 1px solid #D0D5DD;
+}
+
+.agree-text{
+  width: 312px;
+  margin-left: 0.7em;
   color: #475467;
 }
 
-.form-container .agree-container>label{
-  max-width: 250px;
-  margin-left: 20px;
+#message:invalid {
+  background: #FFFFFF;
+  border: 1px solid #F89687;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #FFD3CC;
+}
+
+#message:valid{
+  background: #FFFFFF;
+  border: 1px solid #84CAFF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
 }
 
 .form-container #btn__submit{
@@ -148,9 +207,28 @@ body {
   padding: 12px 20px;
 }
 
+#btn__submit:hover{
+  background: #1570EF;
+  border: 1px solid #1570EF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #D1E9FF;
+}
+
+#btn__submit:active{
+  background: #175CD3;
+  border: 1px solid #175CD3;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.form-container:invalid>#btn__submit {
+  background: #B2DDFF;
+  border: 1px solid #B2DDFF;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+
 #footer-container{
   margin: auto;
-  max-width: 80%;
+  max-width: 90%;
   margin-top: 2.5em;
   padding-bottom: 1em;
 }
@@ -183,6 +261,30 @@ body {
 
   .links-section a>span{
     font-size: 12px;
+  }
+
+  .container{
+    max-width: 85vw;
+    margin: auto;
+  }
+
+  .name-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .name-container .firstname,.lastname{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name-container .firstname{
+    margin-right: 2em;
+  }
+
+  .agree-text{
+    width: 100%;
   }
 
   #footer-container{
