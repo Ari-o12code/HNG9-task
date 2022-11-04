@@ -124,6 +124,15 @@ body {
   gap: 0.6em;
 }
 
+.name-container{
+  display: grid;
+}
+
+.name-container .firstname,.lastname{
+  display: grid;
+  gap: 0.6em;
+}
+
 .form-container #first_name,#last_name,#email,#message{
   background: #FFFFFF;
   border: 1px solid #D0D5DD;
